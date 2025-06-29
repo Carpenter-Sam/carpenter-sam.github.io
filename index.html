@@ -1,14 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="./styles.css"/> // change the href to be an actual stylsheet if possible
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sam Carpenter</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <h1 id="title">Hey there! I'm Sam Carpenter.</h1>
-    <img src="broken-image.png" alt="Picture of Me">
-    <p id="welcome">I am currently a Computer Science student studying at the University of Exeter.</p>
+    <header class="fade-in">
+      <h1>Hi, I'm Sam Carpenter</h1>
+      <p class="tagline">Computer Science Student @ University of Exeter</p>
+    </header>
+
+    <section id="profile" class="fade-in">
+      <img src="images/your-photo.jpg" alt="Photo of Sam Carpenter" class="profile-pic" />
+      <div class="contact">
+        <p>Email: <a href="mailto:samcarpenter1337@gmail.com">samcarpenter1337@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sam-carpenter-472ab0279/">Sam Carpenter</a></p>
+        <p><a href="cv/Sam_Carpenter_CV.pdf" target="_blank">View My CV</a></p>
+      </div>
+    </section>
+
+    <section id="about" class="fade-in">
+      <h2>About Me</h2>
+      <p>I’m a passionate and curious student of Computer Science at the University of Exeter, always looking to expand my skill set in software development, systems thinking, and ethical tech. I also enjoy martial arts, fitness, and exploring how technology intersects with real-world impact.</p>
+    </section>
+
+    <section id="experience" class="fade-in">
+      <h2>Work Experience</h2>
+      <ul>
+        <li><strong>Software Intern</strong> @ ExampleCorp (Summer 2024) – Built internal dashboards and automated report generation.</li>
+        <li><strong>Food Server – Front of House</strong> @ Restaurant Pub (2023) – Customer-facing service for 8 months in a busy dining environment.</li>
+      </ul>
+
+      <h3>Other Relevant Experiences</h3>
+      <ul>
+        <li>Duke of Edinburgh Gold Award</li>
+        <li>Grade 5 in Piano and Music Theory</li>
+        <li>Hackathon Participant – 6-hour hack at University of Exeter (2024), 24-hour hack (2025)</li>
+      </ul>
+    </section>
+
+    <section id="education" class="fade-in">
+      <h2>Education</h2>
+      <p>BSc Computer Science, University of Exeter (2023–2026)</p>
+    </section>
+
+    <section id="projects" class="fade-in">
+      <h2>Projects</h2>
+
+      <h3>Actively Maintained</h3>
+      <ul>
+        <li><strong>Study Tracker App</strong> – React-based web app to track study habits and progress.</li>
+      </ul>
+
+      <h3>Under Development</h3>
+      <ul>
+        <li><strong>Workout Log Web App</strong> – Log gym workouts and visualise progress over time.</li>
+      </ul>
+
+      <h3>Looking for Maintainers</h3>
+      <ul>
+        <li><em>No current projects seeking maintainers.</em></li>
+      </ul>
+
+      <h3>Transferred Membership</h3>
+      <ul>
+        <li><em>None to date.</em></li>
+      </ul>
+
+      <h3>Finished</h3>
+      <ul>
+        <li><strong>Hackathon Timer Tool</strong> – Timer and milestone tracker used during university hackathon.</li>
+      </ul>
+
+      <h3>Deprecated/Abandoned</h3>
+      <ul>
+        <li><strong>Old Pygame Platformer</strong> – A simple platformer that could generate infinite levels made as coursework during A Level Computer Science (73/75 marks), now inactive.</li>
+      </ul>
+
+    </section>
+
+    <section id="interests" class="fade-in">
+      <h2>Other Interests</h2>
+      <p>Outside computing, I’m an avid martial artist and gym goer, as well as a qualified scuba diver. I love the outdoors and am currently part of the Expedition Society at the University of Exeter. I have a strong interest in personal development, discipline, and leadership through structured self-improvement.</p>
+    </section>
+
+    <footer class="fade-in">
+      <p>&copy; 2025 Sam Carpenter</p>
+    </footer>
   </body>
 </html>
